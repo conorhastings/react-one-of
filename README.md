@@ -1,6 +1,15 @@
 ## React One Of
 
+[![CircleCI](https://circleci.com/gh/conorhastings/react-one-of.svg?style=svg)](https://circleci.com/gh/conorhastings/react-one-of)
+[![codecov](https://codecov.io/gh/conorhastings/react-one-of/branch/master/graph/badge.svg)](https://codecov.io/gh/conorhastings/react-one-of)
+
 Often times you find yourself with components with messy if else statements assigning an outside let with the final render.  This can be hard to grok, and reduces the chance ofe rros being caughtr from multiple conditions being met when only one should be. This component aims to take in a set of components and make sure only one is rendered. 
+
+### Install
+
+```bash
+npm install react-one-of --save
+```
 
 ### Props
 
