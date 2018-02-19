@@ -13,8 +13,8 @@ npm install react-one-of --save
 
 ### Props
 
-** components ** - an array of objects with the components to potentially be rendered and the condition to be met that would cause said component to be rendered
-** rest ** - all other props will be passed through to the rendered components
+**components** - an array of objects with the components to potentially be rendered and the condition to be met that would cause said component to be rendered
+**rest** - all other props will be passed through to the rendered components
 
 ### Example
 
