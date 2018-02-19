@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --silent",
+    "test": "jest --silent",
     "build": "babel src --out-dir ./dist",
     "prepublish": "npm run build"
   },
