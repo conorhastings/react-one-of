@@ -1,0 +1,32 @@
+{
+  "name": "react-one-of",
+  "version": "0.0.0",
+  "description": "take in a set of components and make sure only one is rendered.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --silent",
+    "build": "babel src --out-dir ./dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "branch",
+    "oneof"
+  ],
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/"
+  },
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-test-renderer": "^16.2.0"
+  }
+}

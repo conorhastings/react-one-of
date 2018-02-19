@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OneOf component renders correctly when only one condition is met 1`] = `"x"`;
