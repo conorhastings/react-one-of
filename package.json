@@ -1,6 +1,6 @@
 {
   "name": "react-one-of",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "take in a set of components and make sure only one is rendered.",
   "main": "dist/index.js",
   "scripts": {
